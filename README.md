@@ -6,3 +6,6 @@ Depois do meu curso de Banco De Dados para data science descidi fazer um projeto
 
 Essa são todas as minhas tabelas e colunas até o momento.
 
+A seguir uma query na qual queria organizar os clientesID para que ficasse em ordem crescente.
+
+
