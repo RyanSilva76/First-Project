@@ -8,4 +8,6 @@ Essa são todas as minhas tabelas e colunas até o momento.
 
 A seguir uma query na qual queria organizar os clientesID para que ficasse em ordem crescente.
 
+<img width="1439" height="740" alt="image" src="https://github.com/user-attachments/assets/20122b00-bb03-43b5-bfc1-d05e9f82e061" />
+
 
