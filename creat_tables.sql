@@ -1,3 +1,5 @@
+Toda criação de tabela a seguir 
+    
 CREATE TABLE CLIENTE (
     CLIENTEID NUMBER PRIMARY KEY,
     NOME VARCHAR2(100),
