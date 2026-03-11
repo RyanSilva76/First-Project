@@ -1,4 +1,4 @@
-Toda criação de tabela a seguir 
+'Toda criação de tabela a seguir'
     
 CREATE TABLE CLIENTE (
     CLIENTEID NUMBER PRIMARY KEY,
