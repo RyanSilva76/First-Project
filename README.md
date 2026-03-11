@@ -1,46 +1,8 @@
 Projeto de Banco de Dados SQL (Oracle) Modelagem e implementação de um sistema de e-commerce com tabelas de Clientes, Pedidos e Produtos. Foco em normalização, integridade de dados e consultas complexas.
 
-CREATE TABLE CATEGORIAS (
-    CATEGORIASID NUMBER PRIMARY KEY,
-    NOME VARCHAR2(100) NOT NULL
-);
+Depois do meu curso de Banco De Dados para data science descidi fazer um projeto no oracle, um sistema de E-Commerce.
 
-CREATE TABLE CLIENTE (
-    CLIENTEID NUMBER PRIMARY KEY,
-    NOME VARCHAR2(150) NOT NULL,
-    EMAIL VARCHAR2(100 NOT NULL),
-    DATACADASTRO DATE DEFAULT SYSDATE
-);
+<img width="137" height="543" alt="image" src="https://github.com/user-attachments/assets/ff828c7f-4a2b-4415-b15a-05bed0517464" />
 
-CREATE TABLE PRODUTOS (
-    PRODUTOSID NUMBER PRIMARY KEY,
-    NOME VARCHAR2(150) NOT NULL,
-    CATEGORIASID NUMBER,
-    PRECO NUMBER(10,2),
-    ESTOQUE NUMBER
-);
-
-CREATE TABLE PEDIDOS (
-    PEDIDOSID NUMBER PRIMARY KEY,
-    CLIENTEID NUMBER,
-    DATAPEDIDO DATE DEFAULT SYSDATE,
-    VALORTOTAL NUMBER(10,2)
-);
-
-CREATE TABLE ITENSPEDIDOS (
-    ITEMID NUMBER PRIMARY KEY,
-    PEDIDOSID NUMBER,
-    PRODUTOSID NUMBER,
-    QUANTIDADE NUMBER,
-    PRECOUNITARIO NUMBER(10,2)
-
-CREATE TABLE PAGAMENTOS (
-    PAGAMENTOID NUMBER PRIMARY KEY,
-    PEDIDOSID NUMBER,
-    STATUSPAGAMENTO VARCHAR2(50),
-    DATAPAGAMENTO DATE
-);
-
-insert into cliente (CLIENTEID, NOME, EMAIL) VALUES (1, 'Lana Mendes', 'Lanamendes@gmail.com')
-
+Essa são todas as minhas tabelas e colunas até o momento.
 
