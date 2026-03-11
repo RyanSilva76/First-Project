@@ -10,4 +10,7 @@ A seguir uma query na qual queria organizar os clientesID para que ficasse em or
 
 <img width="1439" height="740" alt="image" src="https://github.com/user-attachments/assets/20122b00-bb03-43b5-bfc1-d05e9f82e061" />
 
+Uma query mostrando um relacionamento entre tabelas de produto e categorias.
+
+<img width="1434" height="740" alt="image" src="https://github.com/user-attachments/assets/35ba08b4-3a40-4e51-8575-ad06779c16df" />
 
