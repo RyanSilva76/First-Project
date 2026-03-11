@@ -1,3 +1,5 @@
+'Esse foi alguns dos insert nos quais eu criei no meu banco de dados'
+  
 insert into cliente (CLIENTEID, NOME, EMAIL) VALUES (1, 'Lana Mendes', 'Lanamendes@gmail.com')
 
 insert into cliente (CLIENTEID, NOME, EMAIL) VALUES (2, 'Ryan Silva', 'Ryansilva@gmail.com')
